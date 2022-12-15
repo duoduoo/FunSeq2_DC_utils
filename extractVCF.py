@@ -11,7 +11,7 @@ import pickle
 import time
 import os
 
-tempPath = os.environ['TMPDIR']
+tempPath = os.environ['PWD']
 
 vcfCol = ['chr','posStart','posEnd','ref','alt','sampleID','CDS','VA','HUB','GNEG','GERP','UCONS','HOT','SEN','USEN','GENE','CDSS','NCDS','NCENC','MOTIFBR','MOTIFG','RECUR','DBRECUR','tumorType']
 len(vcfCol)
